@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+.taskbar{
+    background-image: linear-gradient(to bottom right,#A1FFCE, #FAFFD1);;
+    height: 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px black solid;
+}
+
+.taskbar a{
+    float: left;
+    font-size: 200%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 25%;
+    text-align: center;
+    position: sticky;
+    padding: 16px ;
+}
+
+.taskbar a:hover{
+    background-color: beige;
+}
+
+#first{
+    padding: auto;
+    margin: 50px;
+}
+
+.social{
+    height: 150px;
+    width: 75%;
+    background-color: #00b7ff;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 50px;
+
+}
+
+.social img{
+    width: 100px;
+    margin-top: 20px;
+        margin: 20px; /* Adjust the margin values as needed */
+        padding: 10px; /* Adjust the padding values as needed */
+        position: relative; /* Position the element relative to its container */
+        top: 20px; /* Adjust the top position as needed */
+        bottom: 20px; /* Adjust the bottom position as needed */
+        left: 20px; /* Adjust the left position as needed */
+        right: 20px; /* Adjust the right position as needed */
+}

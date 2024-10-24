@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+#title{
+    font-size: 250%;
+    text-align: center;
+    font: bold;
+}
+
+.taskbar{
+    background-image: linear-gradient(to bottom right,#A1FFCE, #FAFFD1);
+    height: 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px black solid;
+}
+
+#current{
+    background-image: linear-gradient(to bottom right,#A1FFCE, #FAFFD1);    
+}
+
+.taskbar a{
+    float: left;
+    font-size: 200%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 25%;
+    text-align: center;
+    position: sticky;
+    padding: 16px ;
+}
+
+.taskbar a:hover{
+    background-color: beige;
+}
+
+.intro {
+    background-image: linear-gradient(45deg,#0093E9, #80D0C7);
+    margin: 40px;
+    margin-bottom: 50px;
+    border-radius: 20px ;
+    height: auto;
+    border: 5px black solid;
+}
+
+.intro img{
+    width: 250px ;
+    height: 250px;
+    display: block;
+    padding: 30px;
+    border-radius: 80%;
+}
+
+#text{
+    margin: 70px;
+    border: 3px black solid;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#text h1 {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+#text p {
+    text-decoration: underline ;
+    text-underline-offset: 5px;
+    padding:30px ;
+    font-size: 30px;
+}

@@ -1,0 +1,34 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+.taskbar{
+    background-image: linear-gradient(to bottom right,#A1FFCE, #FAFFD1);;
+    height: 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px black solid;
+}
+
+.taskbar a{
+    float: left;
+    font-size: 200%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 25%;
+    text-align: center;
+    position: sticky;
+    padding: 16px ;
+}
+
+.taskbar a:hover{
+    background-color: beige;
+}
